@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         sys:
-          - { os: ubuntu-latest, shell: bash }
+          - { os: windows-2019, shell: 'msys2 {0}' }
 
       # Fail if one instance fails.
       fail-fast: true
