@@ -91,7 +91,7 @@ jobs:
   release:
     name: Release RetDec
 
-    
+  
     needs: builder
 
     steps:
